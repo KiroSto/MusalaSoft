@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "test:cypress:chrome": "npx cypress open --browser chrome --config-file musala.config.js --parallel",
+        "test:cypress:firefox": "npx cypress open --browser firefox --config-file musala.config.js --parallel",
+        "report": "cypress run --reporter cypress-multi-reporters"
+    },
+}
